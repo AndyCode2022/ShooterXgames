@@ -1,5 +1,6 @@
 const myElement = document.getElementById("demo");
 
+// Gets location of user
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
@@ -8,7 +9,9 @@ function getLocation() {
     }
 }
 
+// Shows position coordinates of user
 function showPosition(position) {
     myElement.innerHTML = "Latitude: " + position.coords.latitude +
         "<br>Longitude: " + position.coords.longitude;
 }
+
