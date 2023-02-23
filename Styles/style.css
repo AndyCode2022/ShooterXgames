@@ -1,29 +1,12 @@
 
 /* Nav Bar settings */
-nav {
-    background-color: slategrey
-}
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: slategrey
-}
-
-li a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 24px;
+.navbar navbar-expand-lg navbar-light bg-light {
+    background-color: Black;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: red;
 }
 
 /* Footer settings */
