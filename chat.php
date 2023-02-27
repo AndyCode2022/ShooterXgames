@@ -17,6 +17,9 @@
         <div class="col-md-2">
             Column 5
         </div>
+        <div class="col-md-2">
+            Column 6
+        </div>
     </div>
 </div>
 

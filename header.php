@@ -27,13 +27,13 @@
                         <a class="nav-link" href="rules.php">Rules</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Chat</a>
+                        <a class="nav-link" href="chat.php">Chat</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="help.php">Help</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="chat.php">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="register.php">Register</a>
