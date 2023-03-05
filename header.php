@@ -27,7 +27,7 @@
                         <a class="nav-link" href="rules.php">Rules</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="chat.php">Chat</a>
+                        <a class="nav-link" href="discussions.php">Discussions</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="help.php">Help</a>
