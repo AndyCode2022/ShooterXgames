@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-2">
-            Column 1
+            What's Trending
         </div>
         <div class="col-md-2">
             Column 2
