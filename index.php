@@ -3,8 +3,8 @@
 <div id="demo"></div>
 
 <aside>
-    <img src="images/mw2.png" alt="modern warfare 2 image">
-    <img src="images/nuclear_dawn.png" alt="modern warfare 2 image">
+    <img class="img" src="images/mw2.png" alt="modern warfare 2 image">
+    <img class="img2" src="images/nuclear_dawn.png" alt="modern warfare 2 image">
 </aside>
 
 <!-- Clock that continuously updates using JavaScript -->

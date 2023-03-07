@@ -6,7 +6,7 @@ require "dbconnect.php";
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$sql = "SELECT userno, firstname, lastname, password FROM users WHERE username = '$username'";
+$sql = "SELECT userno, firstname, lastname, password FROM users WHERE email = '$username'";
 $result = $conn->query($sql);
 
 if ($result->num_rows == 1) {

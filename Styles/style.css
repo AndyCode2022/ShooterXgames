@@ -19,6 +19,12 @@ li a:hover {
     background-color: red;
 }
 
+/* Images */
+
+.img img2 {
+    width: 100%;
+}
+
 /* Footer settings */
 footer {
     background-color: cadetblue;
