@@ -2,10 +2,19 @@
 
 <div id="demo"></div>
 
-<aside>
-    <img class="img" src="images/mw2.png" alt="modern warfare 2 image">
-    <img class="img2" src="images/nuclear_dawn.png" alt="modern warfare 2 image">
-</aside>
+<div class="container">
+    <div class="rowImage">
+        <div class="col">
+            <img src="images/screenshot 1.jpg" alt="destiny 2 image">
+        </div>
+        <div class="col">
+            <img src="images/screenshot 2.jpg" alt="destiny 2 image">
+        </div>
+    </div>
+</div>
+
+
+
 
 <!-- Clock that continuously updates using JavaScript -->
 <div class="container-fluid bg-dark text-light py-5">

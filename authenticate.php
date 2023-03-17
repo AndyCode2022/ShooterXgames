@@ -1,6 +1,15 @@
 <?php require 'header.php'; ?>
 
 <?php
+
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] == false) {
+    header("Location: login.php");
+    exit;
+}
+
+?>
+
+<?php
 require "dbconnect.php";
 
 $username = $_POST['username'];

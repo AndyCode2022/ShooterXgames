@@ -8,16 +8,16 @@
 
         <div class="mb-3">
             <label for="email" class="form-label">Enter Your Email address</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+            <input type="email" required="true" class="form-control" id="email" name="email" required="true" placeholder="name@example.com">
         </div>
 
         <div class="mb-3">
             <label for="message" class="form-label">What would you like tell us :)</label>
-            <textarea class="form-control" id="message" rows="3"></textarea>
+            <textarea class="form-control" id="message" rows="3" required="true"></textarea>
         </div>
 
         <div class="mb-3">
-            <input class="form-control" type="submit" name="submit" value="Submit">
+            <button type="submit" class="btn btn-primary" required="true" name="submit" value="Submit">Submit</button>
         </div>
     </form>
 
@@ -27,19 +27,18 @@
 
         <div class="mb-3">
             <label for="email" class="form-label">Enter Your Email address</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+            <input type="email" class="form-control" id="email" name="email" required="true" placeholder="name@example.com">
         </div>
 
         <div class="mb-3">
             <label for="message" class="form-label">What is the name of the user
                 you have chosen to report and what is the issue?
             </label>
-            <textarea class="form-control" id="message" rows="3"></textarea>
+            <textarea class="form-control" id="message" required="true" rows="3"></textarea>
         </div>
 
-        <div class="mb-3">
-            <input class="form-control" type="submit" name="submit" value="Submit">
-        </div>
+        <button type="submit" class="btn btn-primary" name="submit" value="Submit">Submit</button>
+
 
     </form>
 </div>
