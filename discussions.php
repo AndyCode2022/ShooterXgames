@@ -27,11 +27,13 @@
     <div class="mb-3">
 <form action="processPostForm.php" method="post">
 <label for="exampleFormControlInput1" required="true" class="form-label">Title</label>
-<input type="title" class="form-control" id="exampleFormControlInput1" placeholder="Your title!">
+<input type="title" class="form-control" id="exampleFormControlInput1" placeholder="Your title!"
+required="true">
     </div>
     <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+        required="true"></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
