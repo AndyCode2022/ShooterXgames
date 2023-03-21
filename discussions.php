@@ -39,6 +39,4 @@ required="true">
 </form>
 </div>
 
-
-
 <?php require 'footer.php' ?>

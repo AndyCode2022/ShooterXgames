@@ -1,7 +1,7 @@
 <?php require 'header.php'; ?>
 
 <?php
-
+// Checks whether user is logged in or not
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] == false) {
     header("Location: login.php");
     exit;
@@ -12,6 +12,8 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] == false) {
 <?php
 require "dbconnect.php";
 
+// Finds out username and password through database and then grabs it
+// and then authenticates the password on whether it is correct or not
 $username = $_POST['username'];
 $password = $_POST['password'];
 
@@ -37,6 +39,7 @@ if ($result->num_rows == 1) {
 $conn->close();
 ?>
 
+ <!--Button   -->
 <div class="container my-3">
     <div class="alert <?php echo $alertClass; ?> alert-dismissible fade show" role="alert">
         <?php echo $message; ?>

@@ -15,3 +15,9 @@ function showPosition(position) {
         "<br>Longitude: " + position.coords.longitude;
 }
 
+// Darkmode
+
+function functionDark() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}

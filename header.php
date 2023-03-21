@@ -49,8 +49,11 @@
                     </li>
                 </ul>
             </div>
+            <div class="button1">
+                <button onclick="functionDark()">Dark Mode</button>
+            </div>
         </div>
     </nav>
 
 
-    <script src="app.js"></script>
+    <script src="JavaScript/app.js"></script>
