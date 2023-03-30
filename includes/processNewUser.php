@@ -1,8 +1,6 @@
-<?php require 'header.php'; ?>
-
 <?php
 
-require "dbconnect.php";
+require "includes/dbconnect.php";
 
 $firstname = $_POST['firstname'];
 $lastname = $_POST['lastname'];
@@ -60,4 +58,4 @@ $conn->close();
 
 ?>
 
-<?php require 'footer.php'; ?>
+<?php require 'includes/footer.php'; ?>

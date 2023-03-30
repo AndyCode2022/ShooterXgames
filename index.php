@@ -1,4 +1,4 @@
-<?php require 'header.php' ?>
+<?php require 'includes/header.php' ?>
 
 <div id="demo"></div>
 
@@ -16,4 +16,4 @@
 
 <script src="app.js"></script>
 
-<?php require 'footer.php' ?>
+<?php require 'includes/footer.php' ?>

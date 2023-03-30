@@ -2,7 +2,7 @@
 
 <?php
 
-include 'dbconnect.php';
+include 'includes/dbconnect.php';
 include  'microBlog.php';
 // Process the search form
 if(isset($_POST['submit'])) {

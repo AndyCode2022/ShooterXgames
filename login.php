@@ -1,4 +1,4 @@
-<?php require 'header.php'; ?>
+<?php require 'includes/header.php'; ?>
 
 <div class="container">
     <h2>Theatre User Login</h2>
@@ -19,4 +19,4 @@
     </form>
 </div>
 
-<?php require 'footer.php'; ?>
+<?php require 'includes/footer.php'; ?>

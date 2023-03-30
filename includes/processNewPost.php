@@ -1,5 +1,5 @@
 <?php
-require 'dbconnect.php';
+require 'includes/dbconnect.php';
 // handle posting messages
 if (isset($_POST['submit'])) {
     $title = mysqli_real_escape_string($conn, $_POST['title']);

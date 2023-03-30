@@ -1,4 +1,4 @@
-<?php require 'header.php'; ?>
+<?php require 'includes/header.php'; ?>
 
 <?php
 // Checks whether user is logged in or not
@@ -10,7 +10,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] == false) {
 ?>
 
 <?php
-require "dbconnect.php";
+require "includes/dbconnect.php";
 
 // Finds out username and password through database and then grabs it
 // and then authenticates the password on whether it is correct or not
@@ -47,4 +47,4 @@ $conn->close();
     </div>
 </div>
 
-<?php require 'footer.php'; ?>
+<?php require 'includes/footer.php'; ?>

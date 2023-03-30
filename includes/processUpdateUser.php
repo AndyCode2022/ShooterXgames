@@ -1,7 +1,6 @@
 <?php
 
-require 'dbconnect.php';
-require 'checkLogin.php';
+require 'includes/dbconnect.php';
 require 'updateUser.php';
 
 $customerno = $_SESSION['userno'];
@@ -46,5 +45,3 @@ if ($conn->query($sql) == true) {
 $conn->close();
 
 ?>
-
-<?php require 'footer.php'; ?>
