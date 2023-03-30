@@ -1,10 +1,50 @@
-<footer class="bg-dark text-white">
-    <div class="container py-3">
-        <div class="footer">ShooterXgames</div>
+<!-- footer top section -->
+<footer class="bg-light text-center text-lg-start footer mt-auto py-3">
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Footer Content</h5>
+                <p>
+                    Welcome to ShooterXgames! Home of one of the best
+                    first person pc games shooter forums on the internet.
+                </p>
+            </div>
+            <!-- footer links -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+
+                <ul class="list-unstyled mb-0">
+                    <li>
+                        <a href="index.php" class="text-dark">Homepage</a>
+                    </li>
+                    <li>
+                        <a href="microBlog.php" class="text-dark">Microblog</a>
+                    </li>
+                    <li>
+                        <a href="register.php" class="text-dark">Register</a>
+                    </li>
+                    <li>
+                        <a href="login.php" class="text-dark">Login</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-0">Links</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="updateUser.php" class="text-dark">Change Your Details</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-
-    <p>Designed by Andrew Webster</p>
-
+    <!-- Change the colour of the footer background -->
+    <!-- Bottom footer settings -->
+    <div class="text-center p-3 footer mt-auto py-3" style="background-color: rgba(255, 0, 0);">
+        <p class="theatre">© 2023 ShooterXgames</p>
+    </div>
 </footer>
 </body>
 

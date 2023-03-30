@@ -17,23 +17,18 @@
         </div>
 
         <div class="mb-3">
-            <label for="address" class="form-label">Address</label>
-            <input type="text" class="form-control" name="address" id="address" value="<?php echo isset($row['address']) ?>">
-        </div>
-
-        <div class="mb-3">
-            <label for="town" class="form-label">Town</label>
-            <input type="text" class="form-control" name="town" id="town" value="<?php echo isset($row['town']) ?>">
-        </div>
-
-        <div class="mb-3">
-            <label for="postcode" class="form-label">Postcode</label>
-            <input type="text" class="form-control" name="postcode" id="postcode" value="<?php echo isset($row['postcode']) ?>">
-        </div>
-
-        <div class="mb-3">
             <label for="email" class="form-label">Email</label>
             <input type="text" class="form-control" name="email" id="email" value="<?php echo isset($row['email']) ?>">
+        </div>
+
+        <div class="mb-3">
+            <label for="username" class="form-label">username</label>
+            <input type="text" class="form-control" name="username" id="username" value="<?php echo isset($row['username']) ?>">
+        </div>
+
+        <div class="mb-3">
+            <label for="password" class="form-label">password</label>
+            <input type="password" class="form-control" name="password" id="password" value="<?php echo isset($row['password']) ?>">
         </div>
 
         <button type="submit" class="btn btn-primary">Update</button>

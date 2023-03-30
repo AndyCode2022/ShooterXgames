@@ -2,32 +2,17 @@
 
 <div id="demo"></div>
 
-<div class="container">
+<div class="container text-container">
     <div class="rowImage">
         <div class="col">
-            <img src="images/screenshot 1.jpg" alt="destiny 2 image">
+            <img src="images/destiny_2_1.jpg" id="image1" class="rounded float-start" alt="destiny 2 image">
         </div>
         <div class="col">
-            <img src="images/screenshot 2.jpg" alt="destiny 2 image">
+            <img src="images/destiny_2_2.jpg" id="image2" class="rounded float-end" alt="destiny 2 image">
         </div>
     </div>
 </div>
-
-
-
-
-<!-- Clock that continuously updates using JavaScript -->
-<div class="container-fluid bg-dark text-light py-5">
-    <div class="container">
-        <h1 class="text-center mb-5">Real Time Clock</h1>
-        <div class="row">
-            <div class="col-12 text-center">
-                <p id="clock" class="fs-1"></p>
-            </div>
-        </div>
-    </div>
 </div>
-
 
 <script src="app.js"></script>
 
