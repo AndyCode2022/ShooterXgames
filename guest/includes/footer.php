@@ -1,5 +1,5 @@
 <!-- footer top section -->
-<footer class="bg-light text-center text-lg-start footer mt-auto py-3">
+<footer class="bg-light text-center text-lg-start footer py-3 fixed-bottom">
     <div class="container p-4">
         <div class="row">
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
@@ -42,7 +42,7 @@
     </div>
     <!-- Change the colour of the footer background -->
     <!-- Bottom footer settings -->
-    <div class="text-center p-3 footer mt-auto py-3" style="background-color: rgba(255, 0, 0);">
+    <div class="text-center p-3 footer" style="background-color: rgba(255, 0, 0);">
         <p class="theatre">© 2023 ShooterXgames</p>
     </div>
 </footer>

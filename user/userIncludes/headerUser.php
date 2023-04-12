@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">ShooterXgames</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleIcon()">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -30,19 +30,16 @@
                         <a class="nav-link" href="discussions.php">Discussions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="help.php">Help</a>
+                        <a class="nav-link" href="../help.php">Help</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact</a>
+                        <a class="nav-link" href="../contactUser.php">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="register.php">Register</a>
+                        <a class="nav-link" href="../registerUser.php">Register</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login.php">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="updateUser.php">Update User</a>
+                        <a class="nav-link" href="../updateUser.php">Update User</a>
                     </li>
                 </ul>
             </div>
@@ -51,6 +48,5 @@
             </div>
         </div>
     </nav>
-
 
     <script src="JavaScript/app.js"></script>
