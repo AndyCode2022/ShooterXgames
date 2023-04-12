@@ -14,6 +14,6 @@
 </div>
 </div>
 
-<script src="app.js"></script>
+<script src="JavaScript/app.js"></script>
 
 <?php require 'includes/footer.php' ?>

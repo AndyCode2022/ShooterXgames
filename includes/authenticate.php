@@ -1,18 +1,21 @@
-
-
 <?php
-require "dbconnect.php";
-
+session_start();
+require_once("dbconnect.php");
 // Finds out username and password through database and then grabs it
 // and then authenticates the password on whether it is correct or not
 $username = $_POST['username'];
 $password = $_POST['password'];
 
+$userno = $_SESSION['userno'];
+
 $sql = "SELECT userno, firstname, lastname, password FROM users WHERE username = '$username'";
+
 $result = $conn->query($sql);
 
 if ($result->num_rows == 1) {
+
     $row = $result->fetch_assoc();
+
     if (password_verify($password, $row['password'])) {
         $message = "Hi " . $row['firstname'] . " " . $row['lastname'] . ". You have successfully logged in.";
         $_SESSION['loggedin'] = true;
@@ -30,8 +33,6 @@ if ($result->num_rows == 1) {
 $conn->close();
 ?>
 
-<?php header("location: ../user/indexUser.php"); ?>
-
 <!--Button   -->
 <div class="container my-3">
     <div class="alert <?php echo $alertClass; ?> alert-dismissible fade show" role="alert">
@@ -39,3 +40,4 @@ $conn->close();
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 </div>
+

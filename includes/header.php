@@ -24,25 +24,25 @@
                         <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="guest/rules.php">Rules</a>
+                        <a class="nav-link" href="rules.php">Rules</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="guest/discussions.php">Discussions</a>
+                        <a class="nav-link" href="discussions.php">Discussions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="guest/help.php">Help</a>
+                        <a class="nav-link" href="help.php">Help</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="guest/contact.php">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="guest/register.php">Register</a>
+                        <a class="nav-link" href="register.php">Register</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="guest/login.php">Login</a>
+                        <a class="nav-link" href="login.php">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="serverFiles/processUpdateUser.php">Update User</a>
+                        <a class="nav-link" href="updateUser.php">Update User</a>
                     </li>
                 </ul>
             </div>
