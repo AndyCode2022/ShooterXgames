@@ -21,10 +21,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
+                        <a class="nav-link" href="indexUser.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="rules.php">Rules</a>
+                        <a class="nav-link" href="rulesUser.php">Rules</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="discussions.php">Discussions</a>
