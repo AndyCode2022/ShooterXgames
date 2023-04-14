@@ -1,4 +1,4 @@
-<?php require 'includes/header.php' ?>
+<?php require 'userIncludes/headerUser.php' ?>
 
 <div class="container">
     <div class="row">
@@ -43,4 +43,4 @@
 </div>
 <img src="screenshot 1.jpg" alt="graphic">
 
-<?php require 'includes/footer.php' ?>
+<?php require 'userIncludes/footerUser.php' ?>

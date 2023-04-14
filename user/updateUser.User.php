@@ -1,8 +1,8 @@
-<?php require 'includes/header.php'; ?>
+<?php require 'userIncludes/headerUser.php'; ?>
 
 <div class="container">
 
-    <form id="registerForm" action="processUpdateUser.User.php" method="post">
+    <form id="registerForm" action="userIncludes/processUpdateUser.User.php" method="post">
 
         <h2>Update User</h2>
 
@@ -31,10 +31,15 @@
             <input type="password" class="form-control" name="password" id="password" value="<?php echo isset($row['password']) ?>">
         </div>
 
+        <div class="mb-3">
+            <label for="confirmPassword" class="form-label">Confirm Password</label>
+            <input type="password" name="confirmPassword" class="form-control" id="confirmPassword" value="<?php echo isset($row['confirmPassword']) ?>">
+        </div>
+
         <button type="submit" class="btn btn-primary">Update</button>
     </form>
 
 </div>
 
 
-<?php require 'includes/footer.php'; ?>
+<?php require 'userIncludes/footerUser.php'; ?>

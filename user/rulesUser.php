@@ -1,4 +1,4 @@
-<?php require 'includes/header.php' ?>
+<?php require 'userIncludes/headerUser.php' ?>
 
 <h1 class="rulesTitle">RULES</h1>
 
@@ -33,4 +33,4 @@
     Remember, the forum is a community where people come to discuss their favorite games and share information. By following these rules, you can help make it a friendly and welcoming place for all users.
 </p>
 
-<?php require 'includes/footer.php' ?>
+<?php require 'userIncludes/footerUser.php' ?>

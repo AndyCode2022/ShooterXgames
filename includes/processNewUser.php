@@ -1,12 +1,9 @@
 <?php
 
-require "includes/dbconnect.php";
+require "dbconnect.php";
 
 $firstname = $_POST['firstname'];
 $lastname = $_POST['lastname'];
-$address = $_POST['address'];
-$town = $_POST['town'];
-$postcode = $_POST['postcode'];
 $email = $_POST['email'];
 $username = $_POST['username'];
 $password = $_POST['password'];
@@ -39,10 +36,10 @@ if ($isValid == true) {
 
 $hash = password_hash($password, PASSWORD_DEFAULT);
 
-$stmt = $conn->prepare("INSERT INTO users (firstname , lastname, address, town, postcode, email, username, password)
-VALUES (?,?,?,?,?,?,?,?)");
+$stmt = $conn->prepare("INSERT INTO users (firstname, lastname, email, username, password, confirmPassword)
+VALUES (?,?,?,?,?,?)");
 
-    $stmt->bind_param("ssssssss", $firstname, $lastname, $address, $town, $postcode, $email, $username, $hash);
+    $stmt->bind_param("ssssss", $firstname, $lastname, $email, $username, $hash, $hash);
 
     if ($stmt->execute() == true) {
         $lastId = $stmt->insert_id;
@@ -57,5 +54,3 @@ VALUES (?,?,?,?,?,?,?,?)");
 $conn->close();
 
 ?>
-
-<?php require 'includes/footer.php'; ?>

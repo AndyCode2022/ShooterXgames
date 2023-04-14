@@ -3,7 +3,7 @@
 <div class="container">
     <h2>Enter your details</h2>
 
-    <form id="registerForm" action="processNewUser.php" method="POST">
+    <form id="registerForm" action="includes/processNewUser.php" method="POST">
 
         <div class="mb-3">
             <label for="firstname" class="form-label">First Name</label>

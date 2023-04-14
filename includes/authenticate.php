@@ -6,8 +6,6 @@ require_once("dbconnect.php");
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$userno = $_SESSION['userno'];
-
 $sql = "SELECT userno, firstname, lastname, password FROM users WHERE username = '$username'";
 
 $result = $conn->query($sql);
@@ -18,6 +16,7 @@ if ($result->num_rows == 1) {
 
     if (password_verify($password, $row['password'])) {
         $message = "Hi " . $row['firstname'] . " " . $row['lastname'] . ". You have successfully logged in.";
+        echo 'Click here to go to the home screen' . " " . "<a href=../user/indexUser.php>Home</a>";
         $_SESSION['loggedin'] = true;
         $_SESSION['userno'] = $row['userno'];
         $alertClass = "alert-success";
@@ -37,7 +36,6 @@ $conn->close();
 <div class="container my-3">
     <div class="alert <?php echo $alertClass; ?> alert-dismissible fade show" role="alert">
         <?php echo $message; ?>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <a href="../login.php">back</a>
     </div>
 </div>
-

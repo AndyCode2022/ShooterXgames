@@ -27,24 +27,27 @@
                         <a class="nav-link" href="rulesUser.php">Rules</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="discussions.php">Discussions</a>
+                        <a class="nav-link" href="discussionsUser.php">Discussions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../help.php">Help</a>
+                        <a class="nav-link" href="helpUser.php">Help</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../contactUser.php">Contact</a>
+                        <a class="nav-link" href="contactUser.php">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../registerUser.php">Register</a>
+                        <a class="nav-link" href="registerUser.php">Register</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../updateUser.php">Update User</a>
+                        <a class="nav-link" href="updateUser.User.php">Update User</a>
                     </li>
                 </ul>
             </div>
             <div class="button1">
                 <button onclick="functionDark()">Dark Mode</button>
+                <form method="post" action="../includes/logout.php">
+                    <button type="submit" name="logout">Logout</button>
+                </form>
             </div>
         </div>
     </nav>

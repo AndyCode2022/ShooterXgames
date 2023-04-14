@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once('dbconnect.php');
+include_once('../../includes/dbconnect.php');
 
 $userno = $_SESSION['userno'];
 
@@ -13,7 +13,7 @@ if ($result->num_rows == 1) {
     echo "Unable to retrieve user info.";
 }
 
-include_once('checkLogin.php');
+include_once('checkLoginUser.php');
 
 $firstname = $_POST['firstname'];
 $lastname = $_POST['lastname'];
