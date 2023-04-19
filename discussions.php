@@ -41,6 +41,9 @@
     </div>
     </form>
 </div>
+
+<?php require '' ?>
+
 <img src="images/cycleFrontier.jpg" alt="graphic">
 
 <?php require 'includes/footer.php' ?>

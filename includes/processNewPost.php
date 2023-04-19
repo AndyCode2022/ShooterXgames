@@ -1,5 +1,5 @@
 <?php
-require 'includes/dbconnect.php';
+require 'dbconnect.php';
 // handle posting messages
 if (isset($_POST['submit'])) {
     $title = mysqli_real_escape_string($conn, $_POST['title']);
@@ -27,4 +27,7 @@ while ($row = mysqli_fetch_assoc($result)) {
     echo '<p>Posted by ' . $row['username'] . ' on ' . $row['date_created'] . '</p>';
     echo '</div>';
 }
+
+header('Location: ../discussions.php');
+mysqli_close($conn);
 ?>
