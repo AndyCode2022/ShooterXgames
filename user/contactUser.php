@@ -43,4 +43,4 @@
     </form>
 </div>
 
-<?php require 'includes/footerUser.php' ?>
+<?php require 'userIncludes/footerUser.php' ?>

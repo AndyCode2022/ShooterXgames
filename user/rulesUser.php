@@ -30,7 +30,7 @@
     9. Report any issues: If you encounter any issues or rule violations, please report them to the moderators or site administrators.
     <br>
     <br>
-    Remember, the forum is a community where people come to discuss their favorite games and share information. By following these rules, you can help make it a friendly and welcoming place for all users.
+    Remember, the forum is a community where people come to discuss their favourite first person shooter and share information about them. By following these rules, you can help make it a friendly and welcoming place for all users.
 </p>
 
 <?php require 'userIncludes/footerUser.php' ?>
