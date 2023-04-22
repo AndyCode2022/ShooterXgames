@@ -42,4 +42,4 @@
 </div>
 
 
-<?php require 'includes/footer.php'; ?>
+<?php require 'footer.php'; ?>

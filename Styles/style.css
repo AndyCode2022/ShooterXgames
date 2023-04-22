@@ -40,6 +40,15 @@ footer, header, hgroup, menu, nav, section {
 
 /* Discussions page */
 
+.searchBar {
+    padding: 50px;
+}
+
+.discussionImage {
+    height: 100px;
+    width: 100px;
+}
+
 /* Help page */
 
 .postTitle {

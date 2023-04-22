@@ -16,4 +16,4 @@
 
 <script src="JavaScript/app.js"></script>
 
-<?php require 'includes/footer.php' ?>
+<?php require 'footer.php' ?>

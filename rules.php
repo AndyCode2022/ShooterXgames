@@ -33,4 +33,4 @@
     Remember, the forum is a community where people come to discuss their favourite first person shooter and share information about them. By following these rules, you can help make it a friendly and welcoming place for all users.
 </p>
 
-<?php require 'includes/footer.php' ?>
+<?php require 'footer.php' ?>

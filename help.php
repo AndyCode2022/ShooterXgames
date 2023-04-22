@@ -44,4 +44,4 @@
         <button type="button" class="btn btn-primary">ban a user</button>
     </div>
 
-    <?php require 'includes/footer.php' ?>
+    <?php require 'footer.php' ?>
