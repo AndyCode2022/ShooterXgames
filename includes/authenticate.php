@@ -1,41 +1,41 @@
-<?php
+<?php 
+
 session_start();
-require_once("dbconnect.php");
-// Finds out username and password through database and then grabs it
-// and then authenticates the password on whether it is correct or not
+
+require('dbconnect.php');
+
+// authenticate user information on login
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$sql = "SELECT userno, firstname, lastname, password FROM users WHERE username = '$username'";
-
-$result = $conn->query($sql);
+$stmt = $conn->prepare("SELECT userno, username, password FROM users WHERE username = ?");
+$stmt->bind_param("s", $username);
+$stmt->execute();
+$result = $stmt->get_result();
 
 if ($result->num_rows == 1) {
 
     $row = $result->fetch_assoc();
 
+    //verify password
     if (password_verify($password, $row['password'])) {
-        $message = "Hi " . $row['firstname'] . " " . $row['lastname'] . ". You have successfully logged in.";
-        echo 'Click here to go to the home screen' . " " . "<a href=../user/indexUser.php>Home</a>";
-        $_SESSION['loggedin'] = true;
+        $_SESSION['logged_in'] = true;
         $_SESSION['userno'] = $row['userno'];
-        $alertClass = "alert-success";
-    } else {
-        $message = "Password not recognised";
-        $alertClass = "alert-danger";
+
+        if ($_SESSION['logged_in'] = true) {
+
+            header("Location: ../index.php");
+
+            exit();
+        }
     }
+    //error handling for when password is incorrect
+    else {
+        echo "Password not recognised";
+    }
+    //error handling for when username or password is incorrect
 } else {
-    $message = "Your username or password is incorrect";
-    $alertClass = "alert-danger";
+    echo "Your username or password is incorrect";
 }
 
 $conn->close();
-?>
-
-<!--Button   -->
-<div class="container my-3">
-    <div class="alert <?php echo $alertClass; ?> alert-dismissible fade show" role="alert">
-        <?php echo $message; ?>
-        <a href="../login.php">back</a>
-    </div>
-</div>

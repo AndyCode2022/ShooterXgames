@@ -15,16 +15,16 @@
 
                 <ul class="list-unstyled mb-0">
                     <li>
-                        <a href="index.php" class="text-dark">Homepage</a>
+                        <a href="index.php" class="text-dark">Home</a>
                     </li>
                     <li>
-                        <a href="microBlog.php" class="text-dark">Microblog</a>
+                        <a href="rules.php" class="text-dark">Rules</a>
                     </li>
                     <li>
-                        <a href="register.php" class="text-dark">Register</a>
+                        <a href="discussions.php" class="text-dark">Discussions</a>
                     </li>
                     <li>
-                        <a href="login.php" class="text-dark">Login</a>
+                        <a href="help.php" class="text-dark">Help</a>
                     </li>
                 </ul>
             </div>
@@ -33,6 +33,15 @@
                 <h5 class="text-uppercase mb-0">Links</h5>
 
                 <ul class="list-unstyled">
+                    <li>
+                        <a href="contact.php" class="text-dark">Contact</a>
+                    </li>
+                    <li>
+                        <a href="Register.php" class="text-dark">Register</a>
+                    </li>
+                    <li>
+                        <a href="login.php" class="text-dark">Login</a>
+                    </li>
                     <li>
                         <a href="updateUser.php" class="text-dark">Change Your Details</a>
                     </li>

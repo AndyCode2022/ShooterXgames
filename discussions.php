@@ -43,7 +43,7 @@
         <!-- Military -->
         <div class="col-md-2">
             <form action="includes/processNewPost.php" method="post">
-                <label for="exampleFormControlInput1" required="true" class="form-label">Please give a brief title for your question</label>
+                <label for="exampleFormControlInput1" required="true" class="form-label">Military</label>
                 <input type="title" class="form-control" id="exampleFormControlInput1" placeholder="Your title!" required="true">
                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required="true"></textarea>
@@ -58,7 +58,7 @@
         <!-- Survival -->
         <div class="col-md-2">
             <form action="includes/processNewPost.php" method="post">
-                <label for="exampleFormControlInput1" required="true" class="form-label">Please give a brief title for your question</label>
+                <label for="exampleFormControlInput1" required="true" class="form-label">Survival</label>
                 <input type="title" class="form-control" id="exampleFormControlInput1" placeholder="Your title!" required="true">
                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required="true"></textarea>
@@ -69,7 +69,7 @@
         <!-- Competitive multiplayer -->
         <div class="col-md-2">
             <form action="includes/processNewPost.php" method="post">
-                <label for="exampleFormControlInput1" required="true" class="form-label">Please give a brief title for your question</label>
+                <label for="exampleFormControlInput1" required="true" class="form-label">Competitive Multiplayer</label>
                 <input type="title" class="form-control" id="exampleFormControlInput1" placeholder="Your title!" required="true">
                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required="true"></textarea>
@@ -80,7 +80,7 @@
         <!-- Tactical -->
         <div class="col-md-2">
             <form action="includes/processNewPost.php" method="post">
-                <label for="exampleFormControlInput1" required="true" class="form-label">Please give a brief title for your question</label>
+                <label for="exampleFormControlInput1" required="true" class="form-label">Tactical</label>
                 <input type="title" class="form-control" id="exampleFormControlInput1" placeholder="Your title!" required="true">
                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required="true"></textarea>

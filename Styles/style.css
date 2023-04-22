@@ -29,6 +29,15 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+/* Background Image */
+
+/* body {
+    background-image: "images/cycleFrontier.jpg";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
 /* Header page */
 
 /* dark mode */
@@ -45,8 +54,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .discussionImage {
-    height: 100px;
-    width: 100px;
+    float: none;
 }
 
 /* Help page */
