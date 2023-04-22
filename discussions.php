@@ -90,6 +90,8 @@
 
     </div>
 
+    <?php require 'includes/displayPosts.php'; ?>
+
     <div class="discussionImage">
         <img src="images/cycleFrontier.jpg" alt="The cycleFrontier gameplay image">
     </div>

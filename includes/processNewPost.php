@@ -2,16 +2,16 @@
 require 'dbconnect.php';
 // handle posting messages
 if (isset($_POST['submit'])) {
-    $title = mysqli_real_escape_string($conn, $_POST['title']);
-    $content = mysqli_real_escape_string($conn, $_POST['content']);
-    $category = mysqli_real_escape_string($conn, $_POST['category']);
-    $userno = mysqli_real_escape_string($conn, $_POST['userno']);
-    $postId = mysqli_real_escape_string($conn, $_POST['postId']);
-    $date_created = mysqli_real_escape_string($conn, $_POST['date_created']);
+    $title = $_POST['title'];
+    $content = $_POST['content'];
+    $category = $_POST['category'];
+    $userno = $_POST['userno'];
+    $postID = $_POST['postID'];
+    $date_created =  $_POST['date_created'];
 
     // insert message data into the database
-    $query = "INSERT INTO posts (title, content, category, userno, postId, date_created) 
-    VALUES ('$title', '$content', '$category', '$userno', '$postId', '$date_created')";
+    $query = "INSERT INTO posts (title, content, category, userno, postID, date_created) 
+    VALUES ('$title', '$content', '$category', '$userno', '$postID', '$date_created')";
     mysqli_query($conn, $query);
 
     echo 'Message posted';
@@ -28,6 +28,6 @@ while ($row = mysqli_fetch_assoc($result)) {
     echo '</div>';
 }
 
-header('Location: ../discussions.php');
+// header('Location: ../discussions.php');
 mysqli_close($conn);
 ?>
