@@ -1,4 +1,9 @@
-<?php require 'includes/header.php'; ?>
+<?php require 'includes/header.php';
+      require 'includes/dbconnect.php';
+
+$sql = "SELECT * FROM users WHERE userno = " . $_SESSION['userno'];
+
+?>
 
 <div class="container">
 
@@ -8,7 +13,7 @@
 
         <div class="mb-3">
             <label for="firstname" class="form-label">First Name</label>
-            <input type="text" class="form-control" name="firstname" value="<?php echo ($row['firstname']) ?>">
+            <input type="text" class="form-control" name="firstname" value="<?php echo $row['firstname'] ?>">
         </div>
 
         <div class="mb-3">
@@ -42,4 +47,4 @@
 </div>
 
 
-<?php require 'footer.php'; ?>
+<?php require 'includes/footer.php'; ?>

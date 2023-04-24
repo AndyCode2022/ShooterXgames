@@ -49,9 +49,9 @@ footer, header, hgroup, menu, nav, section {
 
 /* Discussions page */
 
-.searchBar {
+/* .searchBar {
     padding: 50px;
-}
+} */
 
 .discussionImage {
     float: none;
@@ -62,6 +62,10 @@ footer, header, hgroup, menu, nav, section {
 .postTitle {
     display: flex;
     justify-content: center;
+}
+
+.searchBar {
+    padding: 5px;
 }
 
 /* rules page */

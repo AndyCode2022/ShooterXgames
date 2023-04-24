@@ -43,4 +43,4 @@
     </form>
 </div>
 
-<?php require 'footer.php' ?>
+<?php require 'includes/footer.php' ?>

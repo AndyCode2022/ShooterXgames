@@ -1,4 +1,4 @@
-<!-- Checks if user is logged in or out -->
+<!-- Checks if user is logged in or out for header -->
 <?php
 session_start();
 

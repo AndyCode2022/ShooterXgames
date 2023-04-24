@@ -96,4 +96,4 @@
         <img src="images/cycleFrontier.jpg" alt="The cycleFrontier gameplay image">
     </div>
 
-    <?php require 'footer.php' ?>
+    <?php require 'includes/footer.php' ?>

@@ -22,4 +22,4 @@
 
     <script src="JavaScript/app.js"></script>
 
-    <?php require 'footer.php' ?>
+    <?php require 'includes/footer.php' ?>
