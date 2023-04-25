@@ -4,7 +4,7 @@
 <div class="container">
     <h2>We'd love to hear from you!</h2>
 
-    <form id="ReportForm" action="processReportForm.php" method="post">
+    <form id="ReportForm" action="includes/processQueryForm.php" method="post">
 
         <div class="mb-3">
             <label for="email" class="form-label">Enter Your Email address</label>
@@ -12,8 +12,8 @@
         </div>
 
         <div class="mb-3">
-            <label for="message" class="form-label">What would you like tell us :)</label>
-            <textarea class="form-control" id="message" rows="3" required="true"></textarea>
+            <label for="message" class="form-label">What would you like to tell us :)</label>
+            <textarea class="form-control" id="enquiryMessage" rows="3" required="true"></textarea>
         </div>
 
         <div class="mb-3">
@@ -23,7 +23,7 @@
 
     <h2>Report a User</h2>
 
-    <form id="ReportForm" action="processReportForm.php" method="post">
+    <form id="ReportForm" action="includes/processReportForm.php" method="post">
 
         <div class="mb-3">
             <label for="email" class="form-label">Enter Your Email address</label>

@@ -1,12 +1,28 @@
-<?php require 'includes/header.php';
-      require 'includes/dbconnect.php';
+<?php require 'includes/header.php'; ?>
 
-$sql = "SELECT * FROM users WHERE userno = " . $_SESSION['userno'];
+<?php
+require 'includes/checkLogin.php';
+require 'includes/dbconnect.php';
+
+$userno = $_SESSION['userno'];
+
+$sql = "SELECT * FROM users WHERE userno = $userno";
+$result = $conn->query($sql);
+
+if ($result->num_rows == 1) {
+    $row = $result->fetch_assoc();
+} else {
+    echo "Unable to retrieve userno info.";
+}
+
+$conn->close();
 
 ?>
 
 <div class="container">
-
+    <!-- Input fields for user to update their details.
+                When you user has entered their information then the new details
+                will be updated in the MySQL database -->
     <form id="registerForm" method="post" action="includes/processUpdateUser.php">
 
         <h2>Update User</h2>
@@ -36,10 +52,10 @@ $sql = "SELECT * FROM users WHERE userno = " . $_SESSION['userno'];
             <input type="password" class="form-control" name="password" id="password" value="<?php echo ($row['password']) ?>">
         </div>
 
-        <div class="mb-3">
+        <!-- <div class="mb-3">
             <label for="confirmPassword" class="form-label">Confirm Password</label>
             <input type="password" name="confirmPassword" class="form-control" id="confirmPassword">
-        </div>
+        </div> -->
 
         <button type="submit" class="btn btn-primary">Update</button>
     </form>
