@@ -7,7 +7,7 @@
 <div class="container">
     
     <div class="mb-3">
-        <form action="processPostForm.php" method="post">
+        <form action="includes/processNewHelpPost.php" method="post">
             <label for="exampleFormControlInput1" required="true" class="form-label">Please give a brief title for your question</label>
             <input type="title" class="form-control" id="exampleFormControlInput1" placeholder="Your title!" required="true">
     </div>

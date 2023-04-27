@@ -43,7 +43,7 @@
             </div>
         </div>
     </div>
-    <!-- Change the colour of the footer background -->
+    <!-- Customisation for the theatre back colour -->
     <!-- Bottom footer settings -->
     <div class="text-center p-3 footer" style="background-color: rgba(255, 0, 0);">
         <p class="theatre">© 2023 ShooterXgames</p>

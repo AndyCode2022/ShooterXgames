@@ -6,10 +6,8 @@ require 'dbconnect.php';
 require 'checkLogin.php';
 
 if (isset($_POST['submit'])) {
-    
     // Checks that the variables postID & userno are set
     if (isset($_SESSION['postID']) && isset($_SESSION['userno'])) {
-        
         $postID = $_SESSION['postID'];
         $userno = $_SESSION['userno'];
         $title = $_POST['title'];
@@ -17,14 +15,13 @@ if (isset($_POST['submit'])) {
         $date_created = date('Y-m-d H:i:s');
 
         // insert message data into the database
-        $sql = "INSERT INTO posts (postID, userno, title, postText, date_created)
-        VALUES ('$postID', '$userno', '$title', '$postText', '$date_created')";
+        $sql = "INSERT INTO posts (title, postText, date_created)
+    VALUES ('$title', '$postText', '$date_created')";
         $stmt = $conn->prepare($sql);
 
         if ($stmt->execute()) {
-            $postID = mysqli_insert_id($conn);
+            $postID = $stmt->postID;
             echo "New post created successfully. Post ID: $postID";
-            $_SESSION['postID'] = $postID; // Set the postID session variable to the newly created post's ID
         } else {
             echo "Error: " . $sql . "<br>" . mysqli_error($conn);
         }
@@ -33,7 +30,7 @@ if (isset($_POST['submit'])) {
     }
 }
 
-header('Location: ../discussions.php');
+header('Location: ../help.php');
 mysqli_close($conn);
 
 ?>

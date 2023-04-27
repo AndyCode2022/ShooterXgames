@@ -33,4 +33,8 @@
     Remember, the forum is a community where people come to discuss their favourite first person shooter and share information about them. By following these rules, you can help make it a friendly and welcoming place for all users.
 </p>
 
-<?php require 'includes/footer.php' ?>
+<div class="container-fluid">
+    <img src="images/csgoShot.png" class="img-fluid vw 100 vh-100" id="image2" alt="csgo image">
+</div>
+
+    <?php require 'includes/footer.php' ?>

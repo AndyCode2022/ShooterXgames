@@ -18,7 +18,6 @@ if (mysqli_num_rows($result) > 0) {
          </div>
          <div class="card-footer">
          <small class="text-muted"> ' . ($row['date_created']) . '</small>
-         </div>
          </div>';
 
         // Edit functionality
@@ -52,5 +51,6 @@ if (isset($post['post']) && isset($date_created['date_created'])) {
     echo '<div class="container">
          Error: post or date not found.
          </div>';
+    echo '</div>';
 }
 ?>

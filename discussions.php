@@ -30,18 +30,18 @@
         </div>
 
         <!-- Sci-Fi -->
-        <div class="col-md-2">
-            <form action="includes/processNewPost.php" method="post">
+        <!-- <div class="col-md-2">
+        <form action="includes/processNewPost.php" method="post">
                 <label for="exampleFormControlInput1" required="true" class="form-label">Sci-Fi</label>
                 <input type="title" class="form-control" id="horro" placeholder="Your title!" required="true">
                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                 <textarea class="form-control" id="sci-fi_content" rows="3" required="true"></textarea>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-        </div>
+        </div> -->
 
         <!-- Military -->
-        <div class="col-md-2">
+        <!-- <div class="col-md-2">
             <form action="includes/processNewPost.php" method="post">
                 <label for="exampleFormControlInput1" required="true" class="form-label">Military</label>
                 <input type="title" class="form-control" id="military" placeholder="Your title!" required="true">
@@ -50,13 +50,13 @@
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
-    </div>
+    </div> -->
 
     <!-- Second row categories -->
     <div class="row">
 
         <!-- Survival -->
-        <div class="col-md-2">
+        <!-- <div class="col-md-2">
             <form action="includes/processNewPost.php" method="post">
                 <label for="exampleFormControlInput1" required="true" class="form-label">Survival</label>
                 <input type="title" class="form-control" id="survival" placeholder="Your title!" required="true">
@@ -64,10 +64,10 @@
                 <textarea class="form-control" id="survivalContent" rows="3" required="true"></textarea>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-        </div>
+        </div> -->
 
         <!-- Competitive multiplayer -->
-        <div class="col-md-2">
+        <!-- <div class="col-md-2">
             <form action="includes/processNewPost.php" method="post">
                 <label for="exampleFormControlInput1" required="true" class="form-label">Competitive Multiplayer</label>
                 <input type="title" class="form-control" id="competitiveMultiplayer" placeholder="Your title!" required="true">
@@ -75,10 +75,10 @@
                 <textarea class="form-control" id="competitiveMultiplayerContent" rows="3" required="true"></textarea>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-        </div>
+        </div> -->
 
         <!-- Tactical -->
-        <div class="col-md-2">
+        <!-- <div class="col-md-2">
             <form action="includes/processNewPost.php" method="post">
                 <label for="exampleFormControlInput1" required="true" class="form-label">Tactical</label>
                 <input type="title" class="form-control" id="tactical" placeholder="Your title!" required="true">
@@ -86,7 +86,7 @@
                 <textarea class="form-control" id="tacticalContent" rows="3" required="true"></textarea>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-        </div>
+        </div> -->
 
     </div>
 
