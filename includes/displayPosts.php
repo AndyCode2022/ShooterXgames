@@ -14,7 +14,7 @@ if (mysqli_num_rows($result) > 0) {
 
         // Displayed comments
         echo '<div class="card-postText">
-         <p class="card-text"> ' . ($row['comment']) . '</p>
+         <p class="card-text"> ' . ($row['commentText']) . '</p>
          </div>
          <div class="card-footer">
          <small class="text-muted"> ' . ($row['date_created']) . '</small>
@@ -42,7 +42,7 @@ if (mysqli_num_rows($result) > 0) {
 }
 ?>
 
-<!-- Checks for comment & date and posts it on the discussions page -->
+<!-- Checks for commentText & date and posts it on the discussions page -->
 <?php
 if (isset($post['post']) && isset($date_created['date_created'])) {
     echo '<p>' . $post['post'] . '</p>';
