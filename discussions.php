@@ -52,11 +52,11 @@
         </div>
     </div> -->
 
-    <!-- Second row categories -->
-    <div class="row">
+        <!-- Second row categories -->
+        <div class="row">
 
-        <!-- Survival -->
-        <!-- <div class="col-md-2">
+            <!-- Survival -->
+            <!-- <div class="col-md-2">
             <form action="includes/processNewPost.php" method="post">
                 <label for="exampleFormControlInput1" required="true" class="form-label">Survival</label>
                 <input type="title" class="form-control" id="survival" placeholder="Your title!" required="true">
@@ -66,8 +66,8 @@
             </form>
         </div> -->
 
-        <!-- Competitive multiplayer -->
-        <!-- <div class="col-md-2">
+            <!-- Competitive multiplayer -->
+            <!-- <div class="col-md-2">
             <form action="includes/processNewPost.php" method="post">
                 <label for="exampleFormControlInput1" required="true" class="form-label">Competitive Multiplayer</label>
                 <input type="title" class="form-control" id="competitiveMultiplayer" placeholder="Your title!" required="true">
@@ -77,8 +77,8 @@
             </form>
         </div> -->
 
-        <!-- Tactical -->
-        <!-- <div class="col-md-2">
+            <!-- Tactical -->
+            <!-- <div class="col-md-2">
             <form action="includes/processNewPost.php" method="post">
                 <label for="exampleFormControlInput1" required="true" class="form-label">Tactical</label>
                 <input type="title" class="form-control" id="tactical" placeholder="Your title!" required="true">
@@ -88,12 +88,12 @@
             </form>
         </div> -->
 
-    </div>
+        </div>
 
-    <?php require 'includes/displayPosts.php'; ?>
+        <?php require 'includes/displayPosts.php'; ?>
 
-    <div class="discussionImage">
-        <img src="images/cycleFrontier.jpg" alt="The cycleFrontier gameplay image">
-    </div>
+        <div class="container-fluid">
+            <img src="images/cycleFrontier.jpg" class="img-fluid vw 100 vh-100" alt="The cycleFrontier gameplay image">
+        </div>
 
-    <?php require 'includes/footer.php' ?>
+        <?php require 'includes/footer.php' ?>

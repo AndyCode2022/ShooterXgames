@@ -51,6 +51,7 @@ if (isset($post['post']) && isset($date_created['date_created'])) {
     echo '<div class="container">
          Error: post or date not found.
          </div>';
-    echo '</div>';
+    echo '</div>
+          </div>';
 }
 ?>
