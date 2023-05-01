@@ -1,4 +1,4 @@
-<?php require 'includes/header.php' ?>
+<?php require 'header.php' ?>
 
 <div class="container">
     <h2>Enter your details</h2>
@@ -41,4 +41,4 @@
     </form>
 </div>
 
-<?php require 'includes/footer.php' ?>
+<?php require 'footer.php' ?>

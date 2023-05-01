@@ -5,16 +5,13 @@ $cookie_name = "user";
 $cookie_value = "shooterxgames";
 setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
 ?>
-<html>
-
-<body>
 
     <?php
     if (!isset($_COOKIE[$cookie_name])) {
         echo "Cookie named '" . $cookie_name . "' is not set!";
     } else {
-        echo "Cookie '" . $cookie_name . "' is set!<br>";
-        echo "Value is: " . $_COOKIE[$cookie_name];
+        // echo "Cookie '" . $cookie_name . "' is set!<br>";
+        // echo "Value is: " . $_COOKIE[$cookie_name];
     }
     ?>
 
@@ -45,22 +42,22 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php">Home</a>
+                            <a class="nav-link" href="indexAdmin.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="rules.php">Rules</a>
+                            <a class="nav-link" href="rulesAdmin.php">Rules</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="discussions.php">Discussions</a>
+                            <a class="nav-link" href="discussionsAdmin.php">Discussions</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="help.php">Help</a>
+                            <a class="nav-link" href="helpAdmin.php">Help</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.php">Contact</a>
+                            <a class="nav-link" href="contactAdmin.php">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="updateUser.php">Update User</a>
+                            <a class="nav-link" href="updateUserAdmin.php">Update User</a>
                         </li>
                     </ul>
                 </div>
@@ -68,7 +65,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1
                     <button onclick="functionDark()">Dark Mode</button>
                 </div>
                 <div class="button1">
-                    <form method="post" action="includes/logout.php">
+                    <form method="post" action="../adminIncludes/logoutAdmin.php">
                         <button type="submit" name="logout">Logout</button>
                     </form>
                 </div>

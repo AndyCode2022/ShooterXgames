@@ -8,6 +8,7 @@ require('dbconnect.php');
 $username = $_POST['username'];
 $password = $_POST['password'];
 
+// prepares and binds username for the query on database
 $stmt = $conn->prepare("SELECT userno, username, password FROM users WHERE username = ?");
 $stmt->bind_param("s", $username);
 $stmt->execute();

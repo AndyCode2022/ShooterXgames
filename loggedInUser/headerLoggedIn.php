@@ -31,7 +31,7 @@
                     <a class="nav-link" href="rules.php">Rules</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="discussions.php">Discussions</a>
+                    <a class="nav-link" href="includes/adminAuthenticate.php">Discussions</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="help.php">Help</a>

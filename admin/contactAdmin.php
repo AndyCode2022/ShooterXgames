@@ -1,4 +1,4 @@
-<?php require 'includes/header.php' ?>
+<?php require 'adminIncludes/headerAdmin.php' ?>
 
 
 <div class="container">
@@ -43,4 +43,4 @@
     </form>
 </div>
 
-<?php require 'includes/footer.php' ?>
+<?php require '../adminIncludes/footerAdmin.php' ?>

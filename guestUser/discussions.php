@@ -1,4 +1,4 @@
-<?php require 'includes/header.php' ?>
+<?php require 'header.php' ?>
 
 <!-- Search bar -->
 <div class="searchBar">
@@ -29,6 +29,12 @@
             </form>
         </div>
 
+        <!-- Action -->
+        <div class="col-md-2">
+
+
+        </div>
+
         <!-- Sci-Fi -->
         <!-- <div class="col-md-2">
         <form action="includes/processNewPost.php" method="post">
@@ -53,7 +59,7 @@
     </div> -->
 
         <!-- Second row categories -->
-        <div class="row">
+        <!-- <div class="row"> -->
 
             <!-- Survival -->
             <!-- <div class="col-md-2">
@@ -88,12 +94,24 @@
             </form>
         </div> -->
 
-        </div>
+        <!-- </div> -->
 
         <?php require 'includes/displayPosts.php'; ?>
+
+        <aside>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>Latest posts</h2>
+                        <p>Here you can find the latest posts from the community!</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </aside>
 
         <div class="container-fluid">
             <img src="images/cycleFrontier.jpg" class="img-fluid vw 100 vh-100" alt="The cycleFrontier gameplay image">
         </div>
 
-        <?php require 'includes/footer.php' ?>
+        <?php require 'footer.php' ?>

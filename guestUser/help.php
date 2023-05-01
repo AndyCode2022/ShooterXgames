@@ -1,4 +1,4 @@
-<?php require 'includes/header.php' ?>
+<?php require 'header.php' ?>
 
 <p>This page is for users that are struggling with problems on the
     website or within a first person shooter that is on pc
@@ -34,4 +34,4 @@
 
     <?php require 'includes/displayPosts.php'; ?>
 
-    <?php require 'includes/footer.php' ?>
+    <?php require 'footer.php' ?>

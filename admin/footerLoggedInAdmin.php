@@ -15,16 +15,16 @@
 
                 <ul class="list-unstyled mb-0">
                     <li>
-                        <a href="index.php" class="text-dark">Home</a>
+                        <a href="indexAdmin.php" class="text-dark">Home</a>
                     </li>
                     <li>
-                        <a href="rules.php" class="text-dark">Rules</a>
+                        <a href="rulesAdmin.php" class="text-dark">Rules</a>
                     </li>
                     <li>
-                        <a href="discussions.php" class="text-dark">Discussions</a>
+                        <a href="discussionsAdmin.php" class="text-dark">Discussions</a>
                     </li>
                     <li>
-                        <a href="help.php" class="text-dark">Help</a>
+                        <a href="helpAdmin.php" class="text-dark">Help</a>
                     </li>
                 </ul>
             </div>
@@ -34,10 +34,10 @@
 
                 <ul class="list-unstyled">
                     <li>
-                        <a href="contact.php" class="text-dark">Contact</a>
+                        <a href="contactAdmin.php" class="text-dark">Contact</a>
                     </li>
                     <li>
-                        <a href="updateUser.php" class="text-dark">Change Your Details</a>
+                        <a href="updateUserAdmin.php" class="text-dark">Change Your Details</a>
                     </li>
                 </ul>
             </div>

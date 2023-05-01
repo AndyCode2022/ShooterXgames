@@ -1,4 +1,4 @@
-<?php require 'includes/header.php' ?>
+<?php require 'header.php' ?>
 
 <h1 class="rulesTitle">RULES</h1>
 
@@ -37,4 +37,4 @@
     <img src="images/csgoShot.png" class="img-fluid vw 100 vh-100" id="image2" alt="csgo image">
 </div>
 
-    <?php require 'includes/footer.php' ?>
+    <?php require 'footer.php' ?>

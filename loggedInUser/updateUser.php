@@ -1,4 +1,4 @@
-<?php require 'includes/header.php'; ?>
+<?php require 'header.php'; ?>
 
 <?php
 require 'includes/checkLogin.php';
@@ -63,4 +63,4 @@ $conn->close();
 </div>
 
 
-<?php require 'includes/footer.php'; ?>
+<?php require 'footer.php'; ?>

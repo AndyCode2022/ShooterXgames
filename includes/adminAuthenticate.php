@@ -14,9 +14,9 @@ $result = $stmt->get_result();
 if ($result->num_rows == 1) {
     $row = $result->fetch_assoc();
     if ($row['isAdmin'] == 1) {
-        header('location: ../admin/microBlogAdmin.php');
+        header('location: ../admin/discussionsAdmin.php');
     } else {
-        header('location: microBlog.php');
+        header('location: ../discussions.php');
     }
 }
 

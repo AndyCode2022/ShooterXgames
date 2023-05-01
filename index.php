@@ -1,4 +1,4 @@
-<?php require 'includes/header.php' ?>
+<?php require 'header.php' ?>
 
 <div class="container">
     <div class="rowImage">
@@ -21,4 +21,4 @@
 
 <script src="JavaScript/app.js"></script>
 
-<?php require 'includes/footer.php' ?>
+<?php require 'footer.php' ?>
