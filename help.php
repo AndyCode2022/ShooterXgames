@@ -1,8 +1,9 @@
 <?php require 'includes/header.php' ?>
 
+<div class="container">
 <p>This page is for users that are struggling with problems on the
-    website or within a first person shooter that is on pc
-</p>
+    website or within a first person shooter game that is on pc </p>
+</div>
 
 <div class="container">
 

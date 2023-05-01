@@ -3,13 +3,13 @@
 <div class="container">
     <div class="mb-3">
         <form action="../adminIncludes/processNewPostAdmin.php" method="post">
-            <label for="exampleFormControlInput1" required="true" class="form-label">Enter the title for your post</label>
-            <input type="title" class="form-control" id="exampleFormControlInput1" placeholder="Your title!" required="true">
+            <label for="title" required="true" class="form-label">Enter the title for your post</label>
+            <input type="title" class="form-control" id="title" placeholder="Your title!" required="true">
     </div>
 
     <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">What would you like to post?</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required="true"></textarea>
+        <label for="postText" class="form-label">What would you like to post?</label>
+        <textarea class="form-control" id="postText" rows="3" required="true"></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
     </form>
@@ -24,33 +24,58 @@
 
 <div class="container">
     <div class="row">
+        <?php
+        $posts = $_SESSION['title'];
+        $posts = $_SESSION['postText'];
+        ?>
+
+        <?php foreach ($category as $category) ?>
         <div class="col-md-2">
-            What's Trending
+            <h2><?php echo $post['title']; ?></h2>
+            <p><?php echo $post['postText']; ?></p>
         </div>
+
+        <?php foreach ($category as $category) ?>
         <div class="col-md-2">
-            Column 2
+            <h2><?php echo $post['title']; ?></h2>
+            <p><?php echo $post['postText']; ?></p>
         </div>
+
+        <?php foreach ($category as $category) ?>
         <div class="col-md-2">
-            Column 3
-        </div>
-        <div class="col-md-2">
-            Column 4
-        </div>
-        <div class="col-md-2">
-            Column 5
-        </div>
-        <div class="col-md-2">
-            Column 6
+            <h2><?php echo $post['title']; ?></h2>
+            <p><?php echo $post['postText']; ?></p>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-md-2">
+            <h2><?php echo $post['title']; ?></h2>
+            <p><?php echo $post['postText']; ?></p>
+        </div>
+        <div class="col-md-2">
+            <h2><?php echo $post['title']; ?></h2>
+            <p><?php echo $post['postText']; ?></p>
+        </div>
+        <div class="col-md-2">
+            <h2><?php echo $post['title']; ?></h2>
+            <p><?php echo $post['postText']; ?></p>
+        </div>
+    </div>
+
 </div>
+?>
 
-<h2>Admin Settings</h2>
+<div class="adminControl">
+    <div class="container">
+        <h2>Admin Settings</h2>
+    </div>
 
-<div class="container">
-    <!-- Suspension & Promotion of a user form -->
-    <h2>Admin Suspend & Promotion Panel</h2>
-    <?php require '../adminIncludes/userList.php'; ?>
+    <div class="container">
+        <!-- Suspension & Promotion of a user form -->
+        <h2>Admin Suspend & Promotion Panel</h2>
+        <?php require '../adminIncludes/userList.php'; ?>
+    </div>
 </div>
 
 <img src="../images/csgoShot.png" alt="graphic">

@@ -38,7 +38,7 @@ if (mysqli_num_rows($result) > 0) {
         </div>';
     }
 } else {
-    echo 'No comments yet';
+    echo 'No posts yet';
 }
 ?>
 

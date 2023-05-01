@@ -1,19 +1,5 @@
 <?php require 'includes/header.php' ?>
 
-<!-- Search bar -->
-<div class="searchBar">
-
-    <div class="container">
-
-        <form class="d-flex" method="post" action="includes/processSearch.php">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-
-    </div>
-
-</div>
-
 <!-- First row categories -->
 <div class="container">
 
@@ -21,9 +7,9 @@
         <!-- Horror -->
         <div class="col-md-2">
             <form action="includes/processNewPost.php" method="post">
-                <label for="exampleFormControlInput1" required="true" class="form-label">Horror</label>
+                <label for="exampleFormControlInput1" required="true" class="form-label">Enter your title (No unrelated first person shooter content please!)</label>
                 <input type="title" class="form-control" id="horror" placeholder="Your title!" required="true">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <label for="exampleFormControlTextarea1" class="form-label">What would you like to talk about!</label>
                 <textarea class="form-control" id="horrorContent" rows="3" required="true"></textarea>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
@@ -95,6 +81,20 @@
         </div> -->
 
         <!-- </div> -->
+
+        <!-- Search bar -->
+        <div class="searchBar">
+
+            <div class="container">
+
+                <form class="d-flex" method="post" action="includes/processSearch.php">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+            </div>
+
+        </div>
 
         <?php require 'includes/displayPosts.php'; ?>
 

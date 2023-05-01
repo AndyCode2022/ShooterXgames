@@ -1,7 +1,7 @@
 <?php
 session_start();
-include('checkLogin.php');
-include('dbconnect.php');
+include 'checkLogin.php';
+include 'dbconnect.php';
 
 $userno = $_SESSION['userno'];
 

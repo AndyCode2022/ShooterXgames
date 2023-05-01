@@ -49,6 +49,10 @@ footer, header, hgroup, menu, nav, section {
 
 /* Discussions page */
 
+.adminControl {
+    padding: 45px;
+}
+
 /* .searchBar {
     padding: 50px;
 } */
