@@ -1,29 +1,11 @@
-<?php require 'header.php'; ?>
-
-<?php
-require 'includes/checkLogin.php';
-require 'includes/dbconnect.php';
-
-$userno = $_SESSION['userno'];
-
-$sql = "SELECT * FROM users WHERE userno = $userno";
-$result = $conn->query($sql);
-
-if ($result->num_rows == 1) {
-    $row = $result->fetch_assoc();
-} else {
-    echo "Unable to retrieve userno info.";
-}
-
-$conn->close();
-
-?>
+<?php require '../adminIncludes/headerAdmin.php' ?>
+<?php require '../adminIncludes/adminDetails.php' ?>
 
 <div class="container">
     <!-- Input fields for user to update their details.
                 When you user has entered their information then the new details
                 will be updated in the MySQL database -->
-    <form id="registerForm" method="post" action="includes/processUpdateUser.php">
+    <form id="registerForm" method="post" action="../includes/processUpdateUser.php">
 
         <h2>Update User</h2>
 
@@ -63,4 +45,4 @@ $conn->close();
 </div>
 
 
-<?php require 'footer.php'; ?>
+<?php require '../adminIncludes/footerAdmin.php' ?>

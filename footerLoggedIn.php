@@ -21,7 +21,7 @@
                         <a href="rules.php" class="text-dark">Rules</a>
                     </li>
                     <li>
-                        <a href="../includes/adminAuthenticate.php" class="text-dark">Discussions</a>
+                        <a href="includes/adminAuthenticate.php" class="text-dark">Discussions</a>
                     </li>
                     <li>
                         <a href="help.php" class="text-dark">Help</a>

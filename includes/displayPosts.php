@@ -1,6 +1,6 @@
 <?php
 // Finds the comments in the MySQL database
-include 'includes/dbconnect.php';
+include 'dbconnect.php';
 $sql = "SELECT * FROM posts";
 $result = mysqli_query($conn, $sql);
 

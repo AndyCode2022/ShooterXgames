@@ -3,8 +3,8 @@
 session_start();
 
 if (isset($_SESSION['logged_in'])) {
-    include 'loggedInUser/headerLoggedIn.php';
+    include './headerLoggedIn.php';
 } else {
-    include 'guest/headerLoggedOut.php';
+    include './headerLoggedOut.php';
 }
 ?>

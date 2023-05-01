@@ -1,4 +1,4 @@
-<?php require 'header.php' ?>
+<?php require 'includes/header.php' ?>
 
 <!-- Search bar -->
 <div class="searchBar">
@@ -61,8 +61,8 @@
         <!-- Second row categories -->
         <!-- <div class="row"> -->
 
-            <!-- Survival -->
-            <!-- <div class="col-md-2">
+        <!-- Survival -->
+        <!-- <div class="col-md-2">
             <form action="includes/processNewPost.php" method="post">
                 <label for="exampleFormControlInput1" required="true" class="form-label">Survival</label>
                 <input type="title" class="form-control" id="survival" placeholder="Your title!" required="true">
@@ -72,8 +72,8 @@
             </form>
         </div> -->
 
-            <!-- Competitive multiplayer -->
-            <!-- <div class="col-md-2">
+        <!-- Competitive multiplayer -->
+        <!-- <div class="col-md-2">
             <form action="includes/processNewPost.php" method="post">
                 <label for="exampleFormControlInput1" required="true" class="form-label">Competitive Multiplayer</label>
                 <input type="title" class="form-control" id="competitiveMultiplayer" placeholder="Your title!" required="true">
@@ -83,8 +83,8 @@
             </form>
         </div> -->
 
-            <!-- Tactical -->
-            <!-- <div class="col-md-2">
+        <!-- Tactical -->
+        <!-- <div class="col-md-2">
             <form action="includes/processNewPost.php" method="post">
                 <label for="exampleFormControlInput1" required="true" class="form-label">Tactical</label>
                 <input type="title" class="form-control" id="tactical" placeholder="Your title!" required="true">
@@ -104,7 +104,7 @@
                     <div class="col-md-4">
                         <h2>Latest posts</h2>
                         <p>Here you can find the latest posts from the community!</p>
-                        
+
                     </div>
                 </div>
             </div>
@@ -114,4 +114,4 @@
             <img src="images/cycleFrontier.jpg" class="img-fluid vw 100 vh-100" alt="The cycleFrontier gameplay image">
         </div>
 
-        <?php require 'footer.php' ?>
+        <?php require 'includes/footer.php' ?>

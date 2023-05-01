@@ -1,13 +1,13 @@
-<?php require 'includes/header.php' ?>
+<?php require '../adminIncludes/headerAdmin.php' ?>
 
 <div class="container">
     <div class="rowImage">
         <div class="col">
-            <img src="images/destiny_2_1.jpg" id="image1" class="rounded float-start img-fluid" alt="destiny 2 image">
+            <img src="../images/destiny_2_1.jpg" id="image1" class="rounded float-start img-fluid" alt="destiny 2 image">
         </div>
 
         <div class="col">
-            <img src="images/destiny_2_2.jpg" id="image2" class="rounded float-end img-fluid" alt="destiny 2 image">
+            <img src="../images/destiny_2_2.jpg" id="image2" class="rounded float-end img-fluid" alt="destiny 2 image">
         </div>
     </div>
 </div>
@@ -21,4 +21,4 @@
 
 <script src="JavaScript/app.js"></script>
 
-<?php require 'includes/footer.php' ?>
+<?php require '../adminIncludes/footerAdmin.php' ?>

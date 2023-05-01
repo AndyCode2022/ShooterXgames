@@ -2,9 +2,9 @@
 <?php
 
 if (isset($_SESSION['logged_in'])) {
-    include 'loggedInUser/footerLoggedIn.php';
+    include './footerLoggedIn.php';
 } else {
-    include 'guestUser/footerLoggedOut.php';
+    include './footerLoggedOut.php';
 }
 
 ?>

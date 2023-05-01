@@ -1,4 +1,4 @@
-<?php require 'adminIncludes/headerAdmin.php' ?>
+<?php require '../adminIncludes/headerAdmin.php' ?>
 
 <p>This page is for users that are struggling with problems on the
     website or within a first person shooter that is on pc
@@ -32,6 +32,6 @@
     <!-- blogs are displayed on the website by the system -->
     <h2 class="postTitle">Posts</h2>
 
-    <?php require 'includes/displayPosts.php'; ?>
+    <?php require '../includes/displayPosts.php'; ?>
 
     <?php require '../adminIncludes/footerAdmin.php' ?>

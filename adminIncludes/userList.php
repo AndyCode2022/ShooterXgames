@@ -1,6 +1,6 @@
 <?php
 
-// require_once '../serverFiles/dbconnect.php';
+require '../includes/dbconnect.php';
 
 // Retrieve user data
 $sql = "SELECT * FROM users";
@@ -23,8 +23,9 @@ if (mysqli_num_rows($result) > 0) {
         <th scope="row">' . $row['userno'] . '</th>
         <td>' . $row['firstname'] . '</td>
         <td>' . $row['email'] . '</td>
-        <td scope="row"><a href="adminIncludes/processPromoteUser.php" class="button">Promote User</a></td>
-        <td scope="row"><a href="adminIncludes/processSuspension.php" class="button">Suspend User</a></td>
+        <td scope="row"><a href="processPromoteUser.php" class="button">Promote User</a></td>
+        <td scope="row"><a href="../processSuspension.php" class="button">Suspend User</a></td>
+        <td scope="row"><a href="processSuspensionUndo.php" class="button">UnSuspend User</a></td>
     </tr>';
     }
     echo '<tbody>';

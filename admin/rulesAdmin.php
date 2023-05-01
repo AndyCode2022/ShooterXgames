@@ -1,4 +1,4 @@
-<?php require 'adminIncludes/headerAdmin.php' ?>
+<?php require '../adminIncludes/headerAdmin.php' ?>
 
 <h1 class="rulesTitle">RULES</h1>
 
@@ -34,7 +34,7 @@
 </p>
 
 <div class="container-fluid">
-    <img src="images/csgoShot.png" class="img-fluid vw 100 vh-100" id="image2" alt="csgo image">
+    <img src="../images/csgoShot.png" class="img-fluid vw 100 vh-100" id="image2" alt="csgo image">
 </div>
 
 <?php require '../adminIncludes/footerAdmin.php' ?>

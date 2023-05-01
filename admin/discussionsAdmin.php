@@ -1,4 +1,4 @@
-<?php require 'adminIncludes/headerAdmin.php' ?>
+<?php require '../adminIncludes/headerAdmin.php' ?>
 
 <div class="container">
     <div class="mb-3">
@@ -23,9 +23,7 @@
 </div>
 
 <div class="container">
-
     <div class="row">
-
         <div class="col-md-2">
             What's Trending
         </div>
@@ -44,11 +42,17 @@
         <div class="col-md-2">
             Column 6
         </div>
-
     </div>
-
 </div>
 
-<img src="../images/csgoShot.png 1.jpg" alt="graphic">
+<h2>Admin Settings</h2>
+
+<div class="container">
+    <!-- Suspension & Promotion of a user form -->
+    <h2>Admin Suspend & Promotion Panel</h2>
+    <?php require '../adminIncludes/userList.php'; ?>
+</div>
+
+<img src="../images/csgoShot.png" alt="graphic">
 
 <?php require '../adminIncludes/footerAdmin.php' ?>

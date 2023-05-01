@@ -1,4 +1,4 @@
-<?php require 'adminIncludes/headerAdmin.php' ?>
+<?php require '../adminIncludes/headerAdmin.php' ?>
 
 <div class="container">
     <h2>Theatre User Login</h2>

@@ -1,11 +1,11 @@
-<?php require '../adminIncludes/headerAdmin.php' ?>
-<?php require '../adminIncludes/adminDetails.php' ?>
+<?php require 'includes/header.php'; ?>
+<?php require 'includes/userDetails.php'; ?>
 
 <div class="container">
     <!-- Input fields for user to update their details.
                 When you user has entered their information then the new details
                 will be updated in the MySQL database -->
-    <form id="registerForm" method="post" action="../includes/processUpdateUser.php">
+    <form id="registerForm" method="post" action="includes/processUpdateUser.php">
 
         <h2>Update User</h2>
 
@@ -45,4 +45,4 @@
 </div>
 
 
-<?php require '../adminIncludes/footerAdmin.php' ?>
+<?php require 'includes/footer.php'; ?>
