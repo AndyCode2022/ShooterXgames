@@ -10,7 +10,9 @@ if (mysqli_num_rows($result) > 0) {
         echo '<div class="container">
         <div class="post">
         <p>' . ($postText['title']) . '</p>
-        <p>Posted by user ' . ($postText['postText']) . ' on ' . ($postText['date_created']) . '</p>';
+        <p>Posted by user ' . ($postText['postText']) . ' on ' . ($postText['date_created']) . '</p>'
+        . '</div>
+        </div>';
 
         // Displayed comments
         echo '<div class="card-postText">
@@ -18,7 +20,7 @@ if (mysqli_num_rows($result) > 0) {
          </div>
          <div class="card-footer">
          <small class="text-muted"> ' . ($row['date_created']) . '</small>
-         </div>';
+        </div>';
 
         // Edit functionality
         echo '<div class="container">
@@ -44,13 +46,13 @@ if (mysqli_num_rows($result) > 0) {
 
 <!-- Checks for commentText & date and posts it on the discussions page -->
 <?php
-if (isset($post['post']) && isset($date_created['date_created'])) {
-    echo '<p>' . $post['post'] . '</p>';
-    '<p>Posted on ' . $date_created['date_created'] . '</p>';
-} else {
-    echo '<div class="container">
-         Error: post or date not found.
-         </div>';
-    echo '</div>';
-}
+// if (isset($post['post']) && isset($date_created['date_created'])) {
+//     echo '<p>' . $post['post'] . '</p>';
+//     '<p>Posted on ' . $date_created['date_created'] . '</p>';
+// } else {
+//     echo '<div class="container">
+//          Error: post or date not found.
+//          </div>';
+//     echo '</div>';
+// }
 ?>

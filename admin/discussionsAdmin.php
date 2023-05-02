@@ -22,7 +22,7 @@
     </form>
 </div>
 
-<div class="container">
+<!-- <div class="container">
     <div class="row">
         <?php
         $posts = $_SESSION['title'];
@@ -63,7 +63,7 @@
         </div>
     </div>
 
-</div>
+</div> -->
 ?>
 
 <div class="adminControl">
@@ -78,6 +78,8 @@
     </div>
 </div>
 
-<img src="../images/csgoShot.png" alt="graphic">
+<div class="container-fluid">
+    <img src="../images/csgoShot.png" class="img-fluid vw 100 vh-100" alt="graphic">
+</div>
 
 <?php require '../adminIncludes/footerAdmin.php' ?>
