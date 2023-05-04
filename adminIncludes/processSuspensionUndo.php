@@ -16,7 +16,7 @@ if ($result) {
     echo "Error suspending user: " . mysqli_error($conn);
 }
 
-header("Location: ../admin/microBlogAdmin.php");
+header("Location: ../admin/discussionsAdmin.php");
 
 // Close the database connection
 mysqli_close($conn);

@@ -22,49 +22,7 @@
     </form>
 </div>
 
-<!-- <div class="container">
-    <div class="row">
-        <?php
-        $posts = $_SESSION['title'];
-        $posts = $_SESSION['postText'];
-        ?>
-
-        <?php foreach ($category as $category) ?>
-        <div class="col-md-2">
-            <h2><?php echo $post['title']; ?></h2>
-            <p><?php echo $post['postText']; ?></p>
-        </div>
-
-        <?php foreach ($category as $category) ?>
-        <div class="col-md-2">
-            <h2><?php echo $post['title']; ?></h2>
-            <p><?php echo $post['postText']; ?></p>
-        </div>
-
-        <?php foreach ($category as $category) ?>
-        <div class="col-md-2">
-            <h2><?php echo $post['title']; ?></h2>
-            <p><?php echo $post['postText']; ?></p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-2">
-            <h2><?php echo $post['title']; ?></h2>
-            <p><?php echo $post['postText']; ?></p>
-        </div>
-        <div class="col-md-2">
-            <h2><?php echo $post['title']; ?></h2>
-            <p><?php echo $post['postText']; ?></p>
-        </div>
-        <div class="col-md-2">
-            <h2><?php echo $post['title']; ?></h2>
-            <p><?php echo $post['postText']; ?></p>
-        </div>
-    </div>
-
-</div> -->
-?>
+<?php require '../includes/displayPosts.php'; ?>
 
 <div class="adminControl">
     <div class="container">

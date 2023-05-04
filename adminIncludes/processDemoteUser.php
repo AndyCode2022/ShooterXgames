@@ -16,7 +16,7 @@ $isAdmin = false;
 $sql = "UPDATE users SET isAdmin = '$isAdmin' WHERE userno = $userno";
 mysqli_query($conn, $sql);
 
-header("Location: ../admin/microBlogAdmin.php");
+header("Location: ../admin/discussionsAdmin.php");
 
 // Close the database connection
 mysqli_close($conn);

@@ -4,7 +4,7 @@ session_start();
 require '../includes/dbconnect.php';
 
 // Retrieves userno for account promotion
-$userno = $_POST['userno'];
+$userno = $_SESSION['userno'];
 
 // Updates user account to admin role
 $isAdmin = true;
@@ -13,7 +13,7 @@ $isAdmin = true;
 $sql = "UPDATE users SET isAdmin = '$isAdmin' WHERE userno = $userno";
 mysqli_query($conn, $sql);
 
-header("Location: ../microBlogAdmin.php");
+header("Location: ../admin/discussionsAdmin.php");
 
 // Close the database connection
 mysqli_close($conn);
