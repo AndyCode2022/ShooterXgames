@@ -10,12 +10,12 @@
     <div class="mb-3">
         <form action="includes/processNewHelpPost.php" method="post">
             <label for="exampleFormControlInput1" required="true" class="form-label">Please give a brief title for your question</label>
-            <input type="title" class="form-control" id="exampleFormControlInput1" placeholder="Your title!" required="true">
+            <input type="title" class="form-control" id="title" placeholder="Your title!" required="true">
     </div>
 
     <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">What is your issue?</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required="true"></textarea>
+        <label for="post" class="form-label">What is your issue?</label>
+        <textarea class="form-control" id="post" rows="3" required="true"></textarea>
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>
@@ -29,6 +29,7 @@
             <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
     </div>
+</div>
 
     <!-- blogs are displayed on the website by the system -->
     <h2 class="postTitle">Posts</h2>
