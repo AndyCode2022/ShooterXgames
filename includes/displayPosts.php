@@ -11,8 +11,8 @@ if (mysqli_num_rows($result) > 0) {
         <div class="post">
         <p>' . ($postText['title']) . '</p>
         <p>Posted by user ' . ($postText['postText']) . ' on ' . ($postText['date_created']) . '</p>'
-        . '</div>
-        </div>';
+        . '</div>';
+        
 
         // Displayed comments
         echo '<div class="card-postText">
@@ -20,6 +20,7 @@ if (mysqli_num_rows($result) > 0) {
          </div>
          <div class="card-footer">
          <small class="text-muted"> ' . ($row['date_created']) . '</small>
+        </div>
         </div>';
 
         // Edit functionality

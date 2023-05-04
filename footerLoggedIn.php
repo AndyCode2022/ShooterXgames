@@ -1,4 +1,5 @@
 <!-- footer top section -->
+<div class="footerCSS">
 <footer class="bg-light text-center text-lg-start footer">
     <div class="container p-4">
         <div class="row">
@@ -49,6 +50,7 @@
         <p class="theatre">© 2023 ShooterXgames</p>
     </div>
 </footer>
+</div>
 </body>
 
 </html>

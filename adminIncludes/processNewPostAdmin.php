@@ -6,9 +6,6 @@ if (isset($_POST['submit'])) {
     var_dump($_POST); // add this line to check the contents of $_POST
     $title = $_POST['title'];
     $postText = $_POST['postText'];
-    // $userno = $_POST['userno'];
-    // $postID = $_POST['postID'];
-    // $date_created = $_POST['date_created'];
 
     // insert message data into the database
     $query = "INSERT INTO posts (title, postText) 
