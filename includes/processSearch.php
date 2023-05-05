@@ -5,10 +5,10 @@
 include '../includes/dbconnect.php';
 // include  './microBlog.php';
 // Process the search form
-if (isset($_POST['submit'])) {
+if ($_POST['submit']) {
     $search = isset($conn, $_POST['search']);
     $sql = "SELECT * FROM post 
-WHERE title LIKE '%$search%' OR content LIKE '%$search%'";
+WHERE title LIKE '%$search%' OR postText LIKE '%$search%'";
     $result = mysqli_query($conn, $sql);
 }
 
@@ -18,9 +18,9 @@ WHERE title LIKE '%$search%' OR content LIKE '%$search%'";
 //         echo "<h2>" . $row['title'] . "</h2>";
 //         echo "<p>" . $row['postText'] . "</p>";
 //     }
-} else {
-    echo "No results found.";
-}
+// } else {
+//     echo "No results found.";
+// }
 header('location: ../discussions.php');
 
 ?>
