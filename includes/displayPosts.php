@@ -1,7 +1,8 @@
 <?php
 // Finds the comments in the MySQL database
 require_once 'dbconnect.php';
-$sql = "SELECT * FROM posts";
+$postID = $_POST['postID'];
+$sql = "SELECT * FROM posts WHERE postID = $postID";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
