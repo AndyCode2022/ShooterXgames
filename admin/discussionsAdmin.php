@@ -16,9 +16,9 @@
 </div>
 
 <div class="container">
-    <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+    <form class="d-flex" action="../includes/processSearch.php" method="post">
+        <input class="form-control me-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-success" type="submit" name="submit-search">Search</button>
     </form>
 </div>
 
