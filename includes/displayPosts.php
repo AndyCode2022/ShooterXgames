@@ -1,7 +1,7 @@
 <?php
 // Finds the comments in the MySQL database
 require_once 'dbconnect.php';
-$postID = $_POST['postID'];
+$postID = isset($_POST['postID']);
 $sql = "SELECT * FROM posts WHERE postID = $postID";
 $result = mysqli_query($conn, $sql);
 
@@ -14,7 +14,6 @@ if (mysqli_num_rows($result) > 0) {
         <p>Posted by user ' . ($postText['postText']) . ' on ' . ($postText['date_created']) . '</p>'
         . '</div>';
         
-
         // Displayed comments
         echo '<div class="card-postText">
          <p class="card-text"> ' . ($row['commentText']) . '</p>
