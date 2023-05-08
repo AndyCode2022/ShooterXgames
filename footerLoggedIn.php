@@ -9,7 +9,7 @@
     <!-- footer links -->
     <h5>Links</h5>
 
-    <div class="">
+    <div class="footerNav">
         <ul class="list-unstyled mb-0">
             <li>
                 <a href="index.php" class="text-dark">Home</a>

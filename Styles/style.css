@@ -113,13 +113,17 @@ li a:hover {
 /* Footer settings */
 
 /* footer stays at bottom of the page*/
-/* .footerCSS {
+ .footerCSS {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-} */
+} 
+
+.footerNav {
+    list-style-type: none;
+}
 
 /* Custom page CSS
 -------------------------------------------------- */
