@@ -1,13 +1,12 @@
 <!-- footer top section -->
 <footer class="footer">
-    <!-- <div class="col-lg-6 col-md-12 mb-4 mb-md-0"> -->
-    <h5>Footer Content</h5>
+    <h2>Footer Content</h2>
     <p>
         Welcome to ShooterXgames! Home of one of the best
         first person pc games shooter forums on the internet.
     </p>
     <!-- footer links -->
-    <h5>Links</h5>
+    <h3 class="link">Links</h3>
 
     <div class="footerNav">
         <ul class="list-unstyled mb-0">

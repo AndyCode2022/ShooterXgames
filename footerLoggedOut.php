@@ -1,15 +1,14 @@
 <!-- footer top section -->
 <footer class="footer">
-            <!-- <div class="col-lg-6 col-md-12 mb-4 mb-md-0"> -->
-            <h5>Footer Content</h5>
-            <p>
-                Welcome to ShooterXgames! Home of one of the best
-                first person pc games shooter forums on the internet.
-            </p>
-        <!-- footer links -->
-        <h5>Links</h5>
+    <h5>Footer Content</h5>
+    <p>
+        Welcome to ShooterXgames! Home of one of the best
+        first person pc games shooter forums on the internet.
+    </p>
+    <!-- footer links -->
+    <h3 class="link">Links</h3>
 
-        <div class="">
+    <div class="">
         <ul class="list-unstyled mb-0">
             <li>
                 <a href="index.php" class="text-dark">Home</a>
@@ -32,8 +31,8 @@
             <li>
                 <a href="login.php" class="text-dark">Login</a>
             </li>
-</ul>
-</div>
+        </ul>
+    </div>
     <!-- Bottom footer settings -->
     <div class="text-center p-3 footer">
         <p class="theatre">© 2023 ShooterXgames</p>

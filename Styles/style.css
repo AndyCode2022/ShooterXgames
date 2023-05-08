@@ -31,13 +31,6 @@ footer, header, hgroup, menu, nav, section {
 
 /* Background Image */
 
-/* body {
-    background-image: "images/cycleFrontier.jpg";
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-} */
-
 /* Header page */
 
 /* dark mode */
@@ -123,6 +116,16 @@ li a:hover {
 
 .footerNav {
     list-style-type: none;
+    text-align: center;
+}
+
+.link {
+    text-align: center;
+    background-color: grey;
+}
+
+ul li {
+    text-align: center;
 }
 
 /* Custom page CSS
