@@ -8,8 +8,8 @@
     <!-- footer links -->
     <h3 class="link">Links</h3>
 
-    <div class="">
-        <ul class="list-unstyled mb-0">
+    <div class="footerNav">
+        <ul class="footerNavList">
             <li>
                 <a href="index.php" class="text-dark">Home</a>
             </li>

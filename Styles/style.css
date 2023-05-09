@@ -33,6 +33,15 @@ footer, header, hgroup, menu, nav, section {
 
 /* Header page */
 
+/* HomePage */
+
+.welcomeInfo {
+    padding: 250px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
 /* dark mode */
 
 .dark-mode {
@@ -106,22 +115,35 @@ li a:hover {
 /* Footer settings */
 
 /* footer stays at bottom of the page*/
- .footerCSS {
-    position: fixed;
+ .footer {
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
+    color: aliceblue;
 } 
 
 .footerNav {
     list-style-type: none;
     text-align: center;
+    background-color: black;
+}
+
+.footerNavList {
+    text-align: center;
+    padding: 50px;
+    list-style-type: none;
+    background-color: black;
+    list-style-type: none;
+
 }
 
 .link {
     text-align: center;
     background-color: grey;
+    list-style-type: none;
+    
 }
 
 ul li {
@@ -137,3 +159,21 @@ ul li {
     max-width: 680px;
     padding: 0 15px;
 }
+
+/* Text Responsiveness */
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+/* @media screen and (min-width: 601px) {
+    div.example {
+        font-size: 80px;
+    }
+} */
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/* @media screen and (max-width: 600px) {
+    div.example {
+        font-size: 30px;
+    }
+} */
+
+/* references */
+/* https: //www.w3schools.com/howto/howto_css_responsive_text.asp */
