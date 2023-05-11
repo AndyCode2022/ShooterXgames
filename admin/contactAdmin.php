@@ -4,7 +4,7 @@
 <div class="container">
     <h2>We'd love to hear from you!</h2>
 
-    <form id="ReportForm" action="includes/processQueryForm.php" method="post">
+    <form id="ReportForm" action="../includes/processQueryForm.php" method="post">
 
         <div class="mb-3">
             <label for="email" class="form-label">Enter Your Email address</label>
@@ -23,7 +23,7 @@
 
     <h2>Report a User</h2>
 
-    <form id="ReportForm" action="includes/processReportForm.php" method="post">
+    <form id="ReportForm" action="../includes/processReportForm.php" method="post">
 
         <div class="mb-3">
             <label for="email" class="form-label">Enter Your Email address</label>

@@ -1,5 +1,6 @@
 <?php require '../adminIncludes/headerAdmin.php' ?>
 
+<!-- input fields for creating a post -->
 <div class="container">
     <div class="mb-3">
         <form action="../adminIncludes/processNewPostAdmin.php" method="post">
@@ -24,6 +25,7 @@
 
 <?php require '../includes/displayPosts.php'; ?>
 
+<!-- Admin controls for promotion and suspension of a user -->
 <div class="adminControl">
     <div class="container">
         <h2>Admin Settings</h2>

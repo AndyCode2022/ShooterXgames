@@ -32,7 +32,7 @@ if (!isset($_COOKIE[$cookie_name])) {
 
 <body>
     <!-- Navbar for navigating through the website -->
-    <!-- Make a bootstrap 5 navbar to allow dark mode to be compatible -->
+    <!-- bootstrap 5 navbar to allow dark mode to be compatible -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">ShooterXgames</a>
