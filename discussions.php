@@ -104,7 +104,6 @@
             <div class="col-md-4">
                 <h2>Latest posts</h2>
                 <p>Here you can find the latest posts from the community!</p>
-
             </div>
         </div>
     </div>

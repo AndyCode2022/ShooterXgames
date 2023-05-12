@@ -26,10 +26,18 @@ $postFlag = $_POST['postFlag'];
 $postFlagger = $_POST['postFlagger'];
 
 
-$sql = "UPDATE posts 
+$sql = "UPDATE posts WHERE postID = '$postID';
 SET  = 'title', 
 SET postText = 'postText', 
 WHERE userno = $userno";
+
+if ($conn->query($sql) == true) {
+    echo "<p>Post has been moved.</p>";
+} else {
+    echo "Sorry something went wrong.";
+}
+
+$conn->close();
 
 
 ?>

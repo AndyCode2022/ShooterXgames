@@ -5,12 +5,12 @@
     <div class="mb-3">
         <form action="../adminIncludes/processNewPostAdmin.php" method="post">
             <label for="title" required="true" class="form-label">Enter the title for your post</label>
-            <input type="title" class="form-control" id="title" placeholder="Your title!" required="true">
+            <input type="title" class="form-control" name="title" id="title" placeholder="title" required="true">
     </div>
 
     <div class="mb-3">
         <label for="postText" class="form-label">What would you like to post?</label>
-        <textarea class="form-control" id="postText" rows="3" required="true"></textarea>
+        <textarea class="form-control" placeholder="insert your post information" name="postText" id="postText" rows="3" required="true"></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
     </form>

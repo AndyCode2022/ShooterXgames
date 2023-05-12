@@ -15,16 +15,16 @@ if (isset($_POST['submit'])) {
     echo 'Message posted';
 }
 // display messages
-$query = "SELECT * FROM posts ORDER BY date_created DESC";
-$result = mysqli_query($conn, $query);
+// $query = "SELECT * FROM posts ORDER BY date_created DESC";
+// $result = mysqli_query($conn, $query);
 
-while ($row = mysqli_fetch_assoc($result)) {
-    echo '<div class="message">';
-    echo '<h2>' . $row['title'] . '</h2>';
-    echo '<p>' . $row['postText'] . '</p>';
-    echo '<p>Posted by ' . $row['username'] . ' on ' . $row['date_created'] . '</p>';
-    echo '</div>';
-}
+// while ($row = mysqli_fetch_assoc($result)) {
+//     echo '<div class="message">';
+//     echo '<h2>' . $row['title'] . '</h2>';
+//     echo '<p>' . $row['postText'] . '</p>';
+//     echo '<p>Posted by ' . $row['username'] . ' on ' . $row['date_created'] . '</p>';
+//     echo '</div>';
+// }
 
 header('Location: ../admin/discussionsAdmin.php');
 mysqli_close($conn);

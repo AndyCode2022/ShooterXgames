@@ -2,6 +2,8 @@
 
 require '../includes/dbconnect.php';
 
+// Finds out if user is an admin
+
 $userno = $_SESSION['userno'];
 
 $sql = "SELECT * FROM users WHERE userno = $userno";

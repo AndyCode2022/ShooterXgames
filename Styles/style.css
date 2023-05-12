@@ -37,9 +37,9 @@ footer, header, hgroup, menu, nav, section {
 
 .welcomeInfo {
     padding: 250px;
-    color: black;
+    color: white;
     font-size: large;
-    /* background-color: black; */
+    background-color: black;
     border-radius: 10px;
 }
 

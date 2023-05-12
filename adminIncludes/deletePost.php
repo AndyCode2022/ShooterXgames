@@ -14,7 +14,7 @@ $post_owner = $row['postID'];
 
 // Check if the logged in user matches the post owner
 if ( $userno == $postID) {
-// Delete the post from the database
+// Deletes the post from the database
 $query = "DELETE FROM posts WHERE postID = $postID";
 mysqli_query($conn, $query);
 // Redirect the user to the posts page
