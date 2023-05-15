@@ -15,25 +15,26 @@ if (mysqli_num_rows($postResult) > 0) {
         <p>' . ($postText['title']) . '</p>
         <p>Posted by user ' . ($postText['postText']) . ' on ' . ($postText['date_created']) . '</p>'
         . '</div>';
-
-    $sql = "SELECT * FROM comments";
-    $commentResult = mysqli_query($conn, $sql);
-
-    if (mysqli_num_rows($commentResult) > 0) {
-        while ($commentText = mysqli_fetch_assoc($commentResult)) {
+        
         // Displayed comments
         echo '<div class="card-postText">
-         <p class="card-text"> ' . ($commentText['commentText']) . '</p>
+         <p class="card-text"> ' . ($row['commentText']) . '</p>
          </div>
          <div class="card-footer">
-         <div class="text-muted"> ' . ($commentText['date_created']) . '</div>
-         
+         <small class="text-muted"> ' . ($row['date_created']) . '</small>
         </div>
         </div>';
-        }
-    }
 
-        
+        // Edit & Delete functionality 
+        echo '<div class="container">
+        <form method="post" action="includes/editComment.php">
+        <input type="submit" value="Edit">
+        </form> 
+ 
+        <form method="post" action="includes/deleteComment.php">
+        <input type="submit" value="delete">
+        </form>
+        </div>';
     }
 } else {
     echo 'No posts yet';

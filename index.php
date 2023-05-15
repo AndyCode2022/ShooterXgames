@@ -23,11 +23,13 @@
     </div>
 </div>
 
-<div class="container text-container">
-    <p class="welcomeInfo">Hello and welcome to ShooterXgames! This site has been designed for
-        first person shooter players to come together and discuss their
-        favourite games, share tips and tricks and help each other out.
-    </p>
+<div>
+    <div class="card-body">
+        <p class="welcomeInfo">Hello and welcome to ShooterXgames! This site has been designed for
+            first person shooter players to come together and discuss their
+            favourite games, share tips and tricks and help each other out.
+        </p>
+    </div>
 </div>
 
 <script src="JavaScript/app.js"></script>

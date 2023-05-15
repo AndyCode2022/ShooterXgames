@@ -1,14 +1,15 @@
 <?php
+require_once 'dbconnect.php';
 
 session_start();
 $userno = $_SESSION['userno'];
 
 // Gets the ID of the comment to be deleted
-$commentID = $_POST['commentID'];
+$commentID = isset($_POST['commentID']);
 
 // Query the database to get the userno of the comment owner
 $query = "SELECT userno FROM comments WHERE commentID = $commentID";
-$result = mysqli_query($connection, $query);
+$result = mysqli_query($conn, $query);
 $row = mysqli_fetch_assoc($result);
 $comment_owner = $row['userno'];
 

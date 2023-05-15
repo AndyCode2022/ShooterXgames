@@ -1,7 +1,7 @@
 <?php require '../adminIncludes/headerAdmin.php' ?>
 
 <!-- input fields for creating a post -->
-<div class="container">
+<!-- <div class="container"> -->
     <div class="mb-3">
         <form action="../adminIncludes/processNewPostAdmin.php" method="post">
             <label for="title" required="true" class="form-label">Enter the title for your post</label>
@@ -12,9 +12,11 @@
         <label for="postText" class="form-label">What would you like to post?</label>
         <textarea class="form-control" placeholder="insert your post information" name="postText" id="postText" rows="3" required="true"></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+
+    <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+
     </form>
-</div>
+<!-- </div> -->
 
 <div class="container">
     <form class="d-flex" action="../includes/processSearch.php" method="post">
