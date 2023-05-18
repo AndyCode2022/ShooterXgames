@@ -41,7 +41,20 @@ footer, header, hgroup, menu, nav, section {
     font-size: large;
     background-color: black;
     border-radius: 10px;
-}
+    font-size:5vw
+ }
+
+ @media (max-width:550px) {
+    .welcomeInfo {
+    padding: 200px;
+    color: white;
+    font-size: large;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+ } 
+
 
 /* dark mode */
 

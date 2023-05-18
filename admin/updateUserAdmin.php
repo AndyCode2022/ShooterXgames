@@ -5,7 +5,7 @@
     <!-- Input fields for user to update their details.
                 When you user has entered their information then the new details
                 will be updated in the MySQL database -->
-    <form id="registerForm" method="post" action="../includes/processUpdateUser.php">
+    <form id="registerForm" method="post" action="../adminIncludes/processUpdateAdmin.php">
 
         <h2>Update User</h2>
 
