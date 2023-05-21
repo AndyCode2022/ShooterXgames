@@ -1,5 +1,16 @@
 <?php require '../adminIncludes/headerAdmin.php' ?>
 
+<style>
+    /* Background image for the website */
+    body {
+        background-image: url('images/destiny_2_2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        /* opacity: 50; */
+    }
+</style>
+
 <div class="container">
     <div class="rowImage">
         <div class="col">
