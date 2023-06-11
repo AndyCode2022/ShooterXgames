@@ -34,11 +34,6 @@
             <input type="password" class="form-control" name="password" id="password" value="<?php echo ($row['password']) ?>">
         </div>
 
-        <!-- <div class="mb-3">
-            <label for="confirmPassword" class="form-label">Confirm Password</label>
-            <input type="password" name="confirmPassword" class="form-control" id="confirmPassword">
-        </div> -->
-
         <button type="submit" class="btn btn-primary">Update</button>
     </form>
 

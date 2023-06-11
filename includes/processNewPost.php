@@ -1,45 +1,36 @@
 <?php
-
-session_start();
-
-require 'dbconnect.php';
-require 'checkLogin.php';
-
-if (isset($_POST['submit'])) {
-
-    $title = $_POST['title'];
-    $postText = $_POST['postText'];
-
-    // insert message data into the database
-    $query = "INSERT INTO posts (title, postText) 
-    VALUES ('$title', '$postText')";
-    mysqli_query($conn, $query);
-
-    echo 'Message posted';
-}
-
-header('Location: ../discussions.php');
-mysqli_close($conn);
-
+ini_set("display_errors", 1);
+error_reporting(E_ALL);
 ?>
 
 
+<?php
+require '../includes/dbconnect.php';
+// handle posting messages
+
+if (isset($_POST['postSubmit'])) {
+
+    $postID = ($_POST['postID']);
+    $userno = ($_POST['userno']);
+    $title = $_POST['title'];
+    $postText = $_POST['postText'];
+    $category = $_POST['category'];
 
 
+    // insert message data into the database
+    $query = "INSERT INTO posts (postID, userno, title, postText, category) 
+    VALUES ('$postID', '$userno', '$title', '$postText', '$category')";
 
+    // Error handling for posting comments
+    if (mysqli_query($conn, $query)) {
+        echo 'Message posted';
+    } else {
+        echo 'Error: ' . mysqli_error($conn);
+    }
+}
 
+mysqli_close($conn);
 
-// display messages
-// $query = "SELECT * FROM posts ORDER BY date_created DESC";
-// $result = mysqli_query($conn, $query);
+header('Location: ../discussions.php');
 
-// while ($row = mysqli_fetch_assoc($result)) {
-// echo '<div class="message">';
-    // echo '<h2>' . $row['title'] . '</h2>';
-    // echo '<p>' . $row['postText'] . '</p>';
-    // echo '<p>Posted by ' . $row['username'] . ' on ' . $row['date_created'] . '</p>';
-    // echo '</div>';
-// }
-
-// header('Location: ../discussions.php');
-// mysqli_close($conn);
+?>

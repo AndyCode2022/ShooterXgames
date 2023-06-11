@@ -1,8 +1,8 @@
 <?php
 // Finds the comments in the MySQL database
 session_start();
-// require ('checklogin.php');
-require ('dbconnect.php');
+require 'checklogin.php';
+require 'dbconnect.php';
 
 // Checks if user is an admin and redirects to admin microblog page if true
 $isAdmin = (isset($_SESSION['isAdmin']));

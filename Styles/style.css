@@ -55,6 +55,9 @@ footer, header, hgroup, menu, nav, section {
   }
  } 
 
+ .display6 {
+    text-align: center;
+ }
 
 /* dark mode */
 

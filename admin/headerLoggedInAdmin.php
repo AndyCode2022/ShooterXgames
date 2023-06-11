@@ -72,4 +72,4 @@ if (!isset($_COOKIE[$cookie_name])) {
         </div>
     </nav>
 
-    <script src="JavaScript/app.js"></script>
+    <script src="../JavaScript/app.js"></script>
