@@ -6,7 +6,7 @@ Link to xampp: [text](https://www.apachefriends.org/download.html)
 
 When xampp control panel is installed you need to click start on Apache and mySQL
 
-![alt text](image.png)
+![alt text](image-2.png)
 
 Go to explorer in xampp control panel and then when in file explorer click on the folder called htdocs
 
